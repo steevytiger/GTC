@@ -83,6 +83,11 @@ flutter:
    - assets/images/site/villagepouss.png
    - assets/images/site/marouaRhumsiki.png
    - assets/images/site/Yaounde.png
+   - assets/flutterapp/charleatangana.png
+   - assets/flutterapp/monument.png
+   - assets/flutterapp/paille.png
+   - assets/flutterapp/vertetation.png
+   - assets/flutterapp/yaounderoute.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

@@ -16,10 +16,10 @@ class DrawerWidget extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: Colors.grey,
                 ),
-                accountName: Text("AGTGN",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
-                accountEmail: Text("Application guide touristique grand nord"),
+                accountName: Text("AGTY",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
+                accountEmail: Text("Application guide touristique de Yaoundé"),
                 currentAccountPicture: CircleAvatar(
-                  backgroundImage: AssetImage("assets/images/touriste.png"),
+                  backgroundImage: AssetImage("assets/images/site/Yaounde.png"),
                 ),
               ),
           ),

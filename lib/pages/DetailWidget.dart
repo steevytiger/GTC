@@ -15,18 +15,14 @@ class _DetailWidgetState extends State<DetailWidget> {
   @override
   Widget build(BuildContext context) {
     final site = [
+      /*
       {
         "Nom":"Litoral",
         "Lieu":"Douala",
         "nbre":15,
         "picture":"musemaritinadouala.png",
       },
-      {
-        "Nom":"Centre",
-        "Lieu":"Yaoundé",
-        "nbre":15,
-        "picture":"Yaounde.png",
-      },
+
       {
         "Nom":"Nord",
         "Lieu":"Garoua",
@@ -75,6 +71,13 @@ class _DetailWidgetState extends State<DetailWidget> {
         "Nbre":15,
         "picture":"packwaza.png",
       },
+      */
+      {
+        "Nom":"Centre",
+        "Lieu":"Yaoundé",
+        "nbre":15,
+        "picture":"Yaounde.png",
+      },
     ];
     return SingleChildScrollView(
       child: Padding(
@@ -105,7 +108,7 @@ class _DetailWidgetState extends State<DetailWidget> {
                       final lieu = Site["Lieu"];
                       final nbre = Site["Nbre"];
                       final images = Site['picture'];
-                      String names = 'Nord';
+                      String names = 'Centre';
                       return Card(
                         child: ListTile(
                           leading:Image.asset("assets/images/site/$images"),

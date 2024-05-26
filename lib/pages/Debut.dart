@@ -14,12 +14,13 @@ class Debut extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset("assets/images/touriste.png"),
+              Image.asset("assets/images/site/Yaounde.png"),
               Padding(padding: EdgeInsets.only(bottom: 15),),
-              const Text('AGTG',
+              const Text(
+                'AGTYC',
                 style: TextStyle(fontSize: 28,),
               ),
-              const Text('Application Guide Touristique'),
+              const Text('Application Guide Touristique Yaoundé centre'),
               ElevatedButton.icon(
                 style: ButtonStyle(
                   backgroundColor: MaterialStatePropertyAll(Colors.orange),

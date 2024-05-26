@@ -85,52 +85,38 @@ class _VilleSectionState extends State<VilleSection> {
 
   final List villeNord = [
     {
-      "title":"les sorciers de crabe au grand nord",
-      "place":"ras",
-      "adresse":"ngaroua",
-      "picture":"assets/images/site/sorciercrabe.png",
+      "title":"Zoo de Mvog-betsi",
+      "place":"rue 12",
+      "adresse":"Mvog-betsi",
+      "picture":"assets/flutterapp/yaounderoute.png",
       "visiteur":10
     },
     {
-      "title":"Marché de pouss",
-      "place":"ras",
+      "title":"pack de yaoundé 6",
+      "place":"rue 20",
       "adresse":"contient divers produits",
-      "picture":"assets/images/site/Extremenord.png",
+      "picture":"assets/flutterapp/vertetation.png",
       "visiteur":10
     },
     {
-      "title":"Village de pouss",
-      "place":"ras",
-      "adresse":"situé dans l'arrondissement de Maga",
-      "picture":"assets/images/site/villagepouss.png",
+      "title":"La plage de konfolou",
+      "place":"rue 4",
+      "adresse":"situé à yaoundé 5",
+      "picture":"assets/flutterapp/paille.png",
       "visiteur":10
     },
     {
-      "title":"Mozogo Gohoro",
+      "title":"Catégrale de la paix",
       "place":"pacifiée",
-      "adresse":"ngaroua",
-      "picture":"assets/images/site/packmozogogokoro.png",
+      "adresse":"yaoundé quartier général",
+      "picture":"assets/flutterapp/monument.png",
       "visiteur":10
     },
     {
-      "title":"pack de waza",
-      "place":"inombres",
-      "adresse":"Renferme plusieurs mamifère",
-      "picture":"assets/images/site/packwaza.png",
-      "visiteur":10
-    },
-    {
-      "title":"Pack national de Kalamaloué",
-      "place":"constitutifs",
-      "adresse":"garoua",
-      "picture":"assets/images/site/packbenoue.png",
-      "visiteur":10
-    },
-    {
-      "title":"PackdeGokoro",
-      "place":"diverses",
-      "adresse":"Situé région de l'extreme nord",
-      "picture":"assets/images/site/Rhumsiki.png",
+      "title":"Charle Atangana",
+      "place":"Atangana Cahrle",
+      "adresse":"Allant vers le lycée leclair",
+      "picture":"assets/flutterapp/charleatangana.png",
       "visiteur":10
     },
   ];
@@ -148,7 +134,7 @@ class _VilleSectionState extends State<VilleSection> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  "30 sites du grand nord ",
+                  "Site de yaoundé : 200",
                   style: TextStyle(fontSize: 17,
                       color: Colors.grey,
                       fontWeight: FontWeight.w200),
@@ -315,7 +301,7 @@ class Nord extends StatelessWidget implements PreferredSizeWidget{
         icon: Icon(Icons.arrow_back,color: Colors.red,),
       ),
       title: Text(
-        "Grand-Nord",
+        "Yaoundé centre",
         style: TextStyle(
           color: Colors.red,
           fontSize: 20,

@@ -35,49 +35,6 @@ class PartenaireWidget extends StatelessWidget {
               ),
               ),
 
-              Padding(padding: EdgeInsets.symmetric(horizontal: 10),
-                child: Container(
-                  padding: EdgeInsets.all(8),
-                  decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(10),
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.black,
-                          spreadRadius: 2,
-                          blurRadius: 10,
-                          offset: Offset(0, 3),
-                        )
-                      ]
-                  ),
-                  child: Image.asset("assets/images/fotso.jpg",
-                      width: 70,
-                      height: 70,),
-
-                ),
-              ),
-              Padding(padding: EdgeInsets.symmetric(horizontal: 10),
-                child: Container(
-                  padding: EdgeInsets.all(8),
-                  decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(10),
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.black,
-                          spreadRadius: 2,
-                          blurRadius: 10,
-                          offset: Offset(0, 3),
-                        )
-                      ]
-                  ),
-                  child: Image.asset("assets/images/touriste.png",
-                      width: 70,
-                      height: 70,),
-
-                ),
-              ),
-
             ],
           ),
         ),

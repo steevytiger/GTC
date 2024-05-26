@@ -16,7 +16,7 @@ class _InscrireState extends State<Inscrire> {
   @override
   Widget build(BuildContext context) {
     return  MaterialApp(
-      title: "Application guide touristique du grand nord",
+      title: "Application guide touristique du centre",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           scaffoldBackgroundColor: Color(0xFFFFFFFF)
@@ -32,7 +32,7 @@ class _InscrireState extends State<Inscrire> {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 Text(
-                  "Se Connecter",
+                  "Inscription",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 28,
